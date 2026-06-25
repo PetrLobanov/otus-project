@@ -8,8 +8,8 @@ class Str
         $this->str = $str;
     }
 
-    public function addHello() 
+    public function addHello(?string $str = null) 
     {
-        return $this->str . 'Hello';
+        return $this->str . $str . 'Hello';
     }
 }
