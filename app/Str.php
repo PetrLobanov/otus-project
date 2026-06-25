@@ -1,5 +1,7 @@
 <?php
 
+namespace App;
+
 class Str
 {
     public string $str;
