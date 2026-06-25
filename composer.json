@@ -1,0 +1,16 @@
+{
+    "name": "petr/otus-project",
+    "description": "one package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Petr\\OtusProject\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petr"
+        }
+    ],
+    "require": {}
+}
