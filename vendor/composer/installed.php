@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'petr/otus-project',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '2f01b5049ecec9a3f10eb20a8c42cfc2af62343f',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'danielstjules/stringy' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'reference' => 'df24ab62d2d8213bbbe88cc36fc35a4503b4bd7e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../danielstjules/stringy',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'petr/otus-project' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '2f01b5049ecec9a3f10eb20a8c42cfc2af62343f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/polyfill-mbstring' => array(
+            'pretty_version' => 'v1.38.2',
+            'version' => '1.38.2.0',
+            'reference' => 'd3d318bad5e7a1bfbd026009c8bfb8d8f99ae6b6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

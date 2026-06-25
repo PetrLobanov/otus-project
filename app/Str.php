@@ -2,6 +2,8 @@
 
 namespace App;
 
+use Stringy\Stringy;
+
 class Str
 {
     public string $str;
@@ -13,5 +15,12 @@ class Str
     public function addHello(?string $str = null) 
     {
         return $this->str . $str . 'Hello';
+    }
+
+    public function testPackage()
+    {
+        $str = new Stringy('str');
+
+        echo $str->count();
     }
 }

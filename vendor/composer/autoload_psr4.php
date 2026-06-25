@@ -6,5 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Petr\\OtusProject\\' => array($baseDir . '/src'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
+    'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Petr\\OtusProject\\' => array($baseDir . '/app'),
 );

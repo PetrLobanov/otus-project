@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Petr\\OtusProject\\": "app/"
+            "Petr\\": "app/"
         }
     },
     "authors": [
@@ -12,5 +12,7 @@
             "name": "Petr"
         }
     ],
-    "require": {}
+    "require": {
+        "danielstjules/stringy": "^3.1"
+    }
 }
